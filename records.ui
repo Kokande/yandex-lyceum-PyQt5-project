@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Records</class>
+ <widget class="QWidget" name="Records">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>488</width>
+    <height>584</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Таблица рекордов</string>
+  </property>
+  <widget class="QTableWidget" name="tableWidget">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>491</width>
+     <height>591</height>
+    </rect>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>321</width>
+     <height>0</height>
+    </size>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>491</width>
+     <height>16777215</height>
+    </size>
+   </property>
+   <property name="rowCount">
+    <number>15</number>
+   </property>
+   <row/>
+   <row/>
+   <row/>
+   <row/>
+   <row/>
+   <row/>
+   <row/>
+   <row/>
+   <row/>
+   <row/>
+   <row/>
+   <row/>
+   <row/>
+   <row/>
+   <row/>
+   <column>
+    <property name="text">
+     <string>Дата</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Кол-во ходов</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Имя</string>
+    </property>
+   </column>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
